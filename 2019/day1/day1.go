@@ -9,7 +9,7 @@ import (
 	"strconv"
 )
 
-var inputFile = flag.String("inputFile", "inputs/day01.txt", "Relative Path for input file")
+var inputFile = flag.String("inputFile", "../inputs/day01.txt", "Relative Path for input file")
 
 func calcfuel(mass int) int {
 	var fuel int
